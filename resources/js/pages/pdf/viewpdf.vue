@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
-import PdfTemplateUploader from './components/PdfTemplateUploader.vue';
-import PdfTemplateDesigner from './components/PdfTemplateDesigner.vue';
+import PdfTemplateUploader from '@/components/PdfTemplateUploader.vue';
+import PdfTemplateDesigner from '@/components/PdfTemplateDesigner.vue';
 
 const templateId = ref(null);
 

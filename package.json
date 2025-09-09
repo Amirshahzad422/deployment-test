@@ -4,7 +4,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "vercel-build": "./build.sh"
     },
     "devDependencies": {
         "@eslint/js": "^9.19.0",
@@ -64,6 +65,7 @@
         "vue-advanced-cropper": "^2.8.9",
         "vue-chartjs": "^5.3.2",
         "vue-socials": "^2.0.5",
-        "vuedraggable": "^2.24.3"
+        "vuedraggable": "^2.24.3",
+        "ziggy-js": "^2.5.3"
     }
 }
